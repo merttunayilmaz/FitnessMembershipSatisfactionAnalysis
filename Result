@@ -1,0 +1,21 @@
+Satisfaction Score Averages:
+Uyelik_Paketi
+Premium     2.71
+Standart    3.04
+Name: Memnuniyet_Puani, dtype: float64
+
+Attendance Frequency Averages:
+Uyelik_Paketi
+Premium     16.31
+Standart    16.00
+Name: Katilim_Sikligi, dtype: float64
+
+Standard Package - Satisfaction Score - Shapiro Test: Statistic = 0.8791, p = 0.0000
+Premium Package - Satisfaction Score - Shapiro Test: Statistic = 0.8708, p = 0.0000
+
+Mann-Whitney U Test - Satisfaction Scores: U Statistic = 5650.5000, p = 0.1040
+
+Interpretations and Conclusions:
+- The Shapiro tests for both Standard and Premium packages show p-values less than 0.05, indicating that the satisfaction scores do not follow a normal distribution.
+- The Mann-Whitney U test for satisfaction scores between Standard and Premium packages shows a p-value greater than 0.05, suggesting that there is no statistically significant difference in satisfaction scores between the two membership packages.
+- The average satisfaction scores and attendance frequencies suggest that while there's a slight difference in satisfaction scores, with Standard package members having a slightly higher average, the attendance frequencies are very similar between the two groups.
